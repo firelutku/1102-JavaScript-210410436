@@ -1,0 +1,10 @@
+import presentDrinks from "./src/presentDrinks_xx.js";
+
+import './src/searchForm_xx.js'
+
+const URL ='https://www.thecocktaildb.com/api/json/v1/1/search.php?s=cha';
+
+
+window.addEventListener('DOMContentLoaded', () => {
+    presentDrinks(URL);
+});
